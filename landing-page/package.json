@@ -1,0 +1,22 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Animating a Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexticovschi/GSAP-Animations.git"
+  },
+  "author": "Alex Ticovschi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexticovschi/GSAP-Animations/issues"
+  },
+  "homepage": "https://github.com/alexticovschi/GSAP-Animations#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

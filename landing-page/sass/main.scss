@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat';
+    padding: 9rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    font-size: 5em;
+    width: 25%;
+    color: red;
+    line-height: 1em;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    outline: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: .5em 1em;
+    cursor: pointer;
+    transition: all .5s;
+
+    &:hover {
+        background-color: rgb(235, 64, 64);
+        color: #fff;
+    }
+}
+
+.panel {
+    position: absolute;
+    width: 55%;
+    bottom: 0;
+    right: 0;
+    background: rgb(200, 221, 228);
+    box-sizing: border-box;
+    padding: 15% 7%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    grid-template-rows: 1fr;
+
+    img {
+        width: 130px;
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+
+    p {
+        font-size: 1.5em;
+        width: 100%;
+        height: auto;
+        opacity: 0;
+    }
+
+    .box {
+        border: 5px solid rgb(134, 134, 134);
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        left: -7%;
+        top: 18%;
+        opacity: 0;
+        z-index: -1;
+        transform: scale(0);
+    }
+}
